@@ -1,1 +1,164 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Smooch Sans";
+  src: url("../fonts/smooch_sans/SmoochSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playwrite DE LA Guides";
+  src: url("../fonts/playwrite/PlaywriteDELAGuides-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monsieur La Doulaise";
+  src: url("../fonts/monsieur_la_doulaise/MonsieurLaDoulaise-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebas/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-smooch-sans: "Smooch Sans", sans-serif;
+  --font-playwrite: "Playwrite DE LA Guides", cursive;
+  --font-monsieur-la-doulaise: "Monsieur La Doulaise", cursive;
+  --font-bebas: "Bebas Neue", sans-serif;
+}
+
+.font-smooch-sans-thin {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 100;
+}
+
+.font-smooch-sans-extralight {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 200;
+}
+
+.font-smooch-sans-light {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 300;
+}
+
+.font-smooch-sans-regular {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 400;
+}
+
+.font-smooch-sans-medium {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 500;
+}
+
+.font-smooch-sans-semibold {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 600;
+}
+
+.font-smooch-sans-bold {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 700;
+}
+
+.font-smooch-sans-extrabold {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 800;
+}
+
+.font-smooch-sans-black {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 900;
+}
+
+.font-playwrite {
+  font-family: "Playwrite DE LA Guides", cursive;
+  font-weight: 400;
+}
+
+.font-monsieur-la-doulaise {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+}
+
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}

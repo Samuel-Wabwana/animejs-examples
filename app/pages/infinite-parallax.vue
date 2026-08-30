@@ -16,7 +16,7 @@
                     >
                     <div class="pointer-events-none absolute inset-0 z-10 flex items-center">
                         <svg
-                            class="h-auto w-[160%] max-w-none shrink-0 translate-x-[-18.75%] translate-y-[12%] overflow-visible"
+                            class="h-auto w-[160%] max-w-none shrink-0 translate-x-[-18.75%] translate-y-[22%] overflow-visible"
                             viewBox="0 0 1400 640"
                             preserveAspectRatio="xMidYMid meet"
                             aria-hidden="true"
@@ -24,12 +24,12 @@
                             <defs>
                                 <path
                                     :id="`title-arc-${i}`"
-                                    d="M 0 70 Q 700 620 1400 70"
+                                    d="M 0 70 Q 700 470 1400 70"
                                 />
                             </defs>
                             <text
                                 :fill="titleColors[i].back"
-                                font-size="182"
+                                font-size="170"
                                 font-weight="700"
                                 letter-spacing="4"
                             >
@@ -40,8 +40,8 @@
                                 >
                                     <tspan
                                         v-for="n in titleCopies"
-                                        :key="`title-${n}`"
-                                    >WABS NEVERLAND&nbsp;&nbsp;</tspan>
+                                        :key="`title-${n}`" class="font-bebas"
+                                    >WABS NEVERLAND.&nbsp;&nbsp;</tspan>
                                 </textPath>
                             </text>
                             <text
@@ -57,7 +57,7 @@
                                 >
                                     <tspan
                                         v-for="n in subtitleCopies"
-                                        :key="`sub-${n}`"
+                                        :key="`sub-${n}`" class="font-monsieur-la-doulaise"
                                     >Creator&nbsp;&nbsp;&nbsp;</tspan>
                                 </textPath>
                             </text>
@@ -81,11 +81,11 @@ const images = [
 ]
 
 const titleColors = [
-    { back: '#e11d48', front: '#ffffff' },
-    { back: '#ffffff', front: '#000000' },
-    { back: '#ffffff', front: '#9ca3af' },
-    { back: '#ffffff', front: '#facc15' },
-    { back: '#ffffff', front: '#000000' },
+    { back: '#efab34', front: '#deebeb' },
+    { back: '#efab34', front: '#ffffff' },
+    { back: '#efab34', front: '#ffffff' },
+    { back: '#ae7a48', front: '#deebeb' },
+    { back: '#efab34', front: '#deebeb' },
 ]
 
 const titleCopies = 8
@@ -207,7 +207,7 @@ onMounted(async () => {
         titleAnims.push(startArcMarquee(el, 56000))
     })
     subtitleRefs.value.forEach((el) => {
-        titleAnims.push(startArcMarquee(el, 4500))
+        titleAnims.push(startArcMarquee(el, 2800))
     })
 
     window.addEventListener('wheel', onWheel, { passive: false })
