@@ -114,7 +114,6 @@ const startArcMarquee = (
         ease: 'linear',
         loop: true,
         onUpdate: () => {
-            // Wrap before applying so loop reset (unit → 0) looks identical
             const offset = -(state.distance % unit)
             el.setAttribute('startOffset', `${offset}`)
         },
