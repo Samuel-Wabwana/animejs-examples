@@ -82,8 +82,8 @@
                     />
                     <figure class="relative z-10 aspect-video w-full overflow-hidden rounded-xl p-0">
                         <img
-                            src="/png/screen-parallax.png"
-                            alt="Infinite Parallax"
+                            src="/png/hero-reveal.png"
+                            alt="Header Click reveal"
                             class="h-full w-full object-cover"
                         >
                     </figure>
@@ -93,7 +93,7 @@
                             group-hover:text-[#0f0f0f] group-focus-visible:text-[#0f0f0f]
                             motion-reduce:transition-none"
                     >
-                       Header Click reveal
+                       Hero Click Reveal
                     </h2>
                     <p
                         class="relative z-10 text-sm leading-snug text-slate-300 transition-colors
@@ -101,7 +101,7 @@
                             group-hover:text-[#606060] group-focus-visible:text-[#606060]
                             motion-reduce:transition-none"
                     >
-                        A collection of infinite parallax effects created with HTML, CSS, and JavaScript.
+                        A click reveal effect for the header.
                     </p>
                 </nuxt-link>
             </section>
